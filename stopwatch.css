@@ -1,0 +1,113 @@
+body{
+    background-color: lightgreen;
+    text-align: center;
+    margin: 4%;
+    /* background-image: url(./01_Smokky_clock_01_smokky_small.jpg); */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Digital-7';
+    src: url('digital-7\ \(italic\).ttf');
+}
+ h1{
+    color: rgb(210, 18, 150);
+}
+.timer{
+    margin: 2%;
+    padding: 2%;
+    height: 11em;
+    width: 14em;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(255, 0, 174),rgb(7, 35, 251),rgb(36, 251, 247)); 
+    color:white;
+    box-shadow: 0 10px 10px rgb(255, 0, 174);
+    font-size: x-large;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -150px;
+    font-family: Digital-7;
+}
+.ears{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+.left_ear{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; 
+    box-shadow: 0 10px 10px rgb(255, 0, 174);
+    background-image: linear-gradient(rgb(255, 0, 174),rgb(36, 251, 247),rgb(7, 35, 251));
+}
+.right_ear{
+    height: 150px;
+    width: 150px;
+    border-radius:50%; 
+    box-shadow: 0 10px 10px rgb(255, 0, 174);
+    background-image: linear-gradient(rgb(255, 0, 174),rgb(36, 251, 247),rgb(7, 35, 251)); 
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+aside div:hover{
+    scale: 1.2;
+}
+div i{
+    font-size: 15px;
+}
+aside :nth-child(2){
+    background-color: red;
+    position: relative;
+    top:25px;
+    height: 30px;
+    width: 10%;
+}
+
+.circle{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 8%;
+    cursor: pointer;
+}
+
+.stand{
+    height: 30px;
+    width: 150px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-image: linear-gradient(rgb(36, 251, 247),rgb(36, 251, 247)); 
+    display: inline-block;
+    padding: 2%;
+    margin: 80px;
+}
+.stand2{
+    height: 40px;
+    width: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 10px 10px rgb(255, 0, 174);
+    background-image: linear-gradient(rgb(36, 277, 251),rgb(7, 35, 251)); 
+    display: inline-block;
+    padding: 2%;
+    position: relative;
+    bottom:90px;
+}
+ul{
+    position: relative;
+    right: 30px;
+    top: 5%;
+    color: white;
+    font-size: x-large;
+    list-style-type: none;
+}

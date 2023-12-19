@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stopwatch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+    <h1>Stopwatch<i class="fa fa-stopwatch"></i></h1>
+    <ul id="record">Lap Time<br><br></ul>
+    <div class="ears">
+        <div class="left_ear"></div>
+        <div class="right_ear"></div>
+    </div>
+    <div class="timer">
+        <h2 id="display">00 : 00 : 00<br>000</h2>
+        <aside class="icons">
+            <div onclick="stop()" class="circle"><i class="fa fa-stop"></i></div>
+            <div onclick="start()" class="circle"><i class="fa fa-play"></i></div>
+            <div onclick="reset()" class="circle"><i class="fa fa-refresh"></i></div>
+        </aside><br>
+        <div class="stands">
+            <span class="stand"></span>
+            <span class="stand2"></span>
+        </div>
+    </div>
+</body>
+<script src="./stopwatch.js"></script>
+</html>
