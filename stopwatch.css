@@ -1,11 +1,8 @@
 body{
-    background-color: lightgreen;
     text-align: center;
     margin: 4%;
-    /* background-image: url(./01_Smokky_clock_01_smokky_small.jpg); */
     background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    background-size: cover;
+    background: radial-gradient(circle, rgb(239, 164, 197) 0%, rgb(138, 183, 234) 100%);
 }
 @font-face {
     font-family: 'Digital-7';
@@ -20,7 +17,7 @@ body{
     height: 11em;
     width: 14em;
     border-radius: 50%;
-    background-image: linear-gradient(rgb(255, 0, 174),rgb(7, 35, 251),rgb(36, 251, 247)); 
+    background-image: linear-gradient(rgb(247, 75, 193),rgb(73, 94, 254),rgb(99, 117, 250),rgb(36, 251, 247)); 
     color:white;
     box-shadow: 0 10px 10px rgb(255, 0, 174);
     font-size: x-large;
@@ -67,7 +64,7 @@ div i{
 aside :nth-child(2){
     background-color: red;
     position: relative;
-    top:25px;
+    top:35px;
     height: 30px;
     width: 10%;
 }
